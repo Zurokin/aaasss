@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1741378362822" clover="3.2.0">
+  <project timestamp="1741378362822" name="All files">
+    <metrics statements="16" coveredstatements="16" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4" elements="22" coveredelements="22" complexity="0" loc="16" ncloc="16" packages="1" files="1" classes="1"/>
+    <file name="task.js" path="C:\Users\zurok\Desktop\aaasss\task.js">
+      <metrics statements="16" coveredstatements="16" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+      <line num="3" count="2" type="stmt"/>
+      <line num="7" count="4" type="stmt"/>
+      <line num="11" count="2" type="stmt"/>
+      <line num="12" count="4" type="stmt"/>
+      <line num="18" count="11" type="cond" truecount="2" falsecount="0"/>
+      <line num="21" count="1" type="stmt"/>
+      <line num="22" count="1" type="stmt"/>
+      <line num="30" count="1" type="stmt"/>
+      <line num="39" count="1" type="stmt"/>
+      <line num="40" count="2" type="stmt"/>
+      <line num="43" count="1" type="stmt"/>
+      <line num="45" count="1" type="stmt"/>
+      <line num="46" count="1" type="stmt"/>
+      <line num="47" count="1" type="stmt"/>
+      <line num="48" count="1" type="stmt"/>
+      <line num="49" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
