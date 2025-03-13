@@ -1,22 +1,5 @@
-class Team {
-  constructor() {
-    this.members = [];
-  }
-
-  add(character) {
-    this.members.push(character);
-  }
-
-  *[Symbol.iterator]() {
-    for (const member of this.members) {
-      yield member;
-    }
-  }
-}
-
-function canIterate(obj) {
-  return obj != null && typeof obj[Symbol.iterator] === "function";
-}
+import Team from "./Team.js";
+import { canIterate } from "./utils.js";
 
 const team = new Team();
 team.add({
@@ -39,8 +22,6 @@ team.add({
 for (const char of team) {
   console.log(char);
 }
-
-module.exports = { Team, canIterate };
 
 console.log(canIterate(new Map())); // true
 console.log(canIterate(new Set())); // true

@@ -1,4 +1,5 @@
-const { Team, canIterate } = require("./task");
+const Team = require("./Team").default;
+const { canIterate } = require("./utils");
 
 describe("Team class", () => {
   test("Team should be iterable", () => {
