@@ -7,10 +7,12 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
+    clean: true,
   },
   devServer: {
-    static: "./dist",
+    static: "./src",
     open: true,
+    hot: true,
   },
   module: {
     rules: [
@@ -24,7 +26,7 @@ module.exports = {
     ],
   },
   resolve: {
-    extensions: [".js"], // Расширения для импорта
+    extensions: [".js"],
   },
   plugins: [new ESLintPlugin()],
 };
